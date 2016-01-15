@@ -147,7 +147,7 @@ var InnerCover = React.createClass({
               <Palette palette={palette} />
 
               <p className="lead">
-                description
+                Generate your palette from an image/logo
               </p>
 
               <ImageFIle styles={{backgroundColor: btnColor}} onChange={this.handleFileChanged}/>
@@ -155,7 +155,7 @@ var InnerCover = React.createClass({
 
             <div className="mastfoot">
               <div className="inner">
-                <p></p>
+                <p><a href="https://github.com/pokka/palette">Github</a></p>
               </div>
             </div>
 
