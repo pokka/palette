@@ -48,7 +48,7 @@ var Canvas = React.createClass({
       canvas.drawImage(this);
       delete(this);
     }
-    initImg.src = "/assets/images/WeBareBears.jpg";
+    initImg.src = "assets/images/WeBareBears.jpg";
   },
   componentDidUpdate: function() { this.drawImage(this.props.image) },
 
